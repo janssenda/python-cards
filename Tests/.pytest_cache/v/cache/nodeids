@@ -1,0 +1,6 @@
+[
+  "Deck_test.py::Deck_test::test_construct_deck",
+  "Deck_test.py::Deck_test::test_deck_size",
+  "Deck_test.py::Deck_test::test_draw_cards",
+  "Deck_test.py::Deck_test::test_shuffle_deck"
+]
