@@ -4,12 +4,10 @@
 
 class Card:
 
-    def __init__(self):
-        self._value = None
-        self._suit = None
-        self._rank = None
-
-
+    def __init__(self, value = None, rank = None, suit = None):
+        self._value = value
+        self._suit = suit
+        self._rank = rank
 
     @property
     def value(self):

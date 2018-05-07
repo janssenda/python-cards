@@ -1,15 +1,20 @@
 
 
-import Deck
+import VariableDeck
+import DeckConfigurator
 
 def Main():
 
     print ("")
-    # myDeck = Deck.Deck()
-    # myDeck.shuffleDeck()
+    myDeck = VariableDeck.Deck(DeckConfigurator.DeckConfigurator())
+
+    #myDeck.showAllCards()
+
+
+    myDeck.shuffleDeck()
     #
     # print(len(myDeck.cards))
-    # myDeck.showCards(myDeck.dealHand(7))
+    myDeck.showCards(myDeck.drawCards(7))
 
 
 if __name__ == '__main__':
