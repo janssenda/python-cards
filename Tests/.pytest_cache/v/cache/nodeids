@@ -1,6 +1,7 @@
 [
-  "Variable_Deck_test-mock.py::VariableDeck_test::test_construct_deck",
-  "Variable_Deck_test-mock.py::VariableDeck_test::test_deck_size",
-  "Variable_Deck_test-mock.py::VariableDeck_test::test_draw_cards",
-  "Variable_Deck_test-mock.py::VariableDeck_test::test_shuffle_deck"
+  "Test_Deck_Configurator.py::Test_Deck_Configurator::test_read_yml",
+  "Test_Variable_Deck.py::VariableDeck_test::test_construct_deck",
+  "Test_Variable_Deck.py::VariableDeck_test::test_deck_size",
+  "Test_Variable_Deck.py::VariableDeck_test::test_draw_cards",
+  "Test_Variable_Deck.py::VariableDeck_test::test_shuffle_deck"
 ]

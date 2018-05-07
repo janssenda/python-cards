@@ -5,11 +5,11 @@ class DeckConfigurator:
     def __init__(self):
         self._ranksValues = {}
         self._card_dict = {}
-        self.read_yml()
+       # self.read_yml("card_config.yml")
 
 
-    def read_yml(self):
-        with open("card_config.yml", 'r') as stream:
+    def read_yml(self, filename):
+        with open(filename, 'r') as stream:
             try:
                 card_data = yaml.load(stream)
 
@@ -18,7 +18,7 @@ class DeckConfigurator:
                     self._card_dict[str(d).strip()] = card_row
 
                 for v in card_data['Card_Values']:
-                    self._ranksValues[str(v).strip()] = int(card_data['Card_Values'][v].strip())
+                    self._ranksValues[str(v).strip()] = int(card_data['Card_Values'][v])
 
             except yaml.YAMLError as exc:
                 print(exc)
