@@ -18,7 +18,7 @@ def deckConfig():
 
 class VariableDeck_test(unittest.TestCase):
 
-    @pytest.mark.usefixtures("deckConfig")
+    # @pytest.mark.usefixtures("deckConfig")
     def test_deck_size(self):
 
         # Test single deck size

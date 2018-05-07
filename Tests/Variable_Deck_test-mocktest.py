@@ -20,25 +20,44 @@ from unittest.mock import patch
 #         }
 #     return config
 
+@pytest.fixture()
+def mock_data():
+    mock_card_dict = {
+        "Hearts": ["Ace", "2", "3", "4", "5", "6", "7", "8", "9", "10", "Jack", "Queen", "King"],
+        "Diamonds": ["Ace", "2", "3", "4", "5", "6", "7", "8", "9", "10", "Jack", "Queen", "King"],
+        "Spades": ["Ace", "2", "3", "4", "5", "6", "7", "8", "9", "10", "Jack", "Queen", "King"],
+        "Clubs": ["Ace", "2", "3", "4", "5", "6", "7", "8", "9", "10", "Jack", "Queen", "King"]
+    }
+
+    mock_ranksValues = {
+        "2": 2, "3": 3, "4": 4, "5": 5, "6": 6,
+        "7": 7, "8": 8, "9": 9, "10": 10,
+        "Jack": 10, "Queen": 10, "King": 10, "Ace": 1
+    }
+
 
 class VariableDeck_test(unittest.TestCase):
 
     @patch('DeckConfigurator.DeckConfigurator')
     def test_deck_size(self, dcs):
         deckConfigA = dcs()
+        md = mock_data()
 
-        deckConfigA.ranksValues = {
-            "2": 2, "3": 3, "4": 4, "5": 5, "6": 6,
-            "7": 7, "8": 8, "9": 9, "10": 10,
-            "Jack": 10, "Queen": 10, "King": 10, "Ace": 1
-        }
+        deckConfigA.ranksValues = md.mock_ranksValues
+        deckConfigA.card_dict = md.mock_card_dict
 
-        deckConfigA.card_dict = {
-            "Hearts" : ["Ace","2","3","4","5","6","7","8","9","10","Jack","Queen","King"],
-            "Diamonds" : ["Ace","2","3","4","5","6","7","8","9","10","Jack","Queen","King"],
-            "Spades" : ["Ace","2","3","4","5","6","7","8","9","10","Jack","Queen","King"],
-            "Clubs" : ["Ace","2","3","4","5","6","7","8","9","10","Jack","Queen","King"]
-        }
+        # deckConfigA.ranksValues = {
+        #     "2": 2, "3": 3, "4": 4, "5": 5, "6": 6,
+        #     "7": 7, "8": 8, "9": 9, "10": 10,
+        #     "Jack": 10, "Queen": 10, "King": 10, "Ace": 1
+        # }
+        #
+        # deckConfigA.card_dict = {
+        #     "Hearts" : ["Ace","2","3","4","5","6","7","8","9","10","Jack","Queen","King"],
+        #     "Diamonds" : ["Ace","2","3","4","5","6","7","8","9","10","Jack","Queen","King"],
+        #     "Spades" : ["Ace","2","3","4","5","6","7","8","9","10","Jack","Queen","King"],
+        #     "Clubs" : ["Ace","2","3","4","5","6","7","8","9","10","Jack","Queen","King"]
+        # }
 
         # Test single deck size
         myDeck = VariableDeck.Deck(deckConfigA)
