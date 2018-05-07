@@ -1,14 +1,9 @@
-import pytest
+
 import unittest
-import VariableDeck
-import copy
 import DeckConfigurator
 import mock
-from unittest.mock import patch
-import os
-import os.path
-import yaml
-import six.moves
+from mock.mock import patch
+
 
 
 class Test_Deck_Configurator(unittest.TestCase):

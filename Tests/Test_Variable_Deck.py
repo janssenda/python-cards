@@ -2,9 +2,7 @@ import pytest
 import unittest
 import VariableDeck
 import copy
-import DeckConfigurator
-import mock
-from unittest.mock import patch
+from mock.mock import patch
 
 
 @pytest.fixture()
