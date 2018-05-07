@@ -32,10 +32,12 @@ class Test_Deck_Configurator(unittest.TestCase):
 
         cfg = DeckConfigurator.DeckConfigurator()
 
+        # Test read_yml's ability to correctly read in and construct the card_dict and ranksValues fields
+        # We return mock data from yaml.load, and compare the resulting fields to the controls, which
+        # define what they should look like.
         mock_isfile.return_value = True
         mocked_open = mock_open('test')
         mocked_open_name = '%s.open' % __name__
-
         with patch(mocked_open_name, mocked_open, create=True):
             mock_yaml.return_value = {'Card_Layout':
                                           {'Hearts': 'Ace, 2, 3, 4, 5, 6, 7, 8, 9, 10, Jack, Queen, King',
