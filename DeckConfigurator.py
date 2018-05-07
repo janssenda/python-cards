@@ -15,10 +15,10 @@ class DeckConfigurator:
 
                 for d in card_data['Card_Layout']:
                     card_row = [x.strip() for x in card_data['Card_Layout'][d].split(',')]
-                    self._card_dict[d] = card_row
+                    self._card_dict[str(d).strip()] = card_row
 
                 for v in card_data['Card_Values']:
-                    self._ranksValues[str(v)] = int(card_data['Card_Values'][v])
+                    self._ranksValues[str(v).strip()] = int(card_data['Card_Values'][v].strip())
 
             except yaml.YAMLError as exc:
                 print(exc)
