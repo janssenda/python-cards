@@ -1,6 +1,7 @@
 {
   "Deck_test.py::Deck_test::testDeck": true,
   "Deck_test.py::Deck_test::test_that_depends_on_resource": true,
+  "Test_Deck_Configurator-test.py": true,
   "Variable_Deck_test-mocktest2.py::VariableDeck_test::test_deck_size": true,
   "Variable_Deck_test-stub.py::VariableDeck_test::test_construct_deck": true,
   "Variable_Deck_test-stub.py::VariableDeck_test::test_deck_size": true,
