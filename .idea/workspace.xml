@@ -17,12 +17,13 @@
     <SUITE FILE_PATH="coverage/pytestproject$Unittests_in_Deck_test_py.coverage" NAME="Unittests in Deck_test.py Coverage Results" MODIFIED="1525452318611" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pytestproject$py_test_in_Tests.coverage" NAME="py.test in Tests Coverage Results" MODIFIED="1525457704295" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tests" />
     <SUITE FILE_PATH="coverage/pytestproject$Run.coverage" NAME="Run Coverage Results" MODIFIED="1525453498984" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/python_cards$py_test_in_Variable_Deck_test_py.coverage" NAME="py.test in Variable_Deck_test.py Coverage Results" MODIFIED="1525664169936" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tests" />
+    <SUITE FILE_PATH="coverage/python_cards$py_test_in_Variable_Deck_test_py.coverage" NAME="py.test in Variable_Deck_test-stub.py Coverage Results" MODIFIED="1525701967003" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tests" />
+    <SUITE FILE_PATH="coverage/python_cards$Mock_Tests.coverage" NAME="Mock Tests Coverage Results" MODIFIED="1525708081192" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tests" />
     <SUITE FILE_PATH="coverage/python_cards$py_test_in_Tests.coverage" NAME="py.test in Tests Coverage Results" MODIFIED="1525483598824" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tests" />
     <SUITE FILE_PATH="coverage/python_cards$py_test_in_Variable_Deck_test_mocktest2_py.coverage" NAME="py.test in Variable_Deck_test-mocktest2.py Coverage Results" MODIFIED="1525663222592" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tests" />
     <SUITE FILE_PATH="coverage/pytestproject$py_test_in__pytest_cache.coverage" NAME="py.test in .pytest_cache Coverage Results" MODIFIED="1525452537850" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tests/.pytest_cache" />
     <SUITE FILE_PATH="coverage/python_cards$py_test_in_Variable_Deck_test_mocktest_py.coverage" NAME="py.test in Variable_Deck_test-mocktest.py Coverage Results" MODIFIED="1525664225946" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tests" />
-    <SUITE FILE_PATH="coverage/python_cards$Run.coverage" NAME="Run Coverage Results" MODIFIED="1525653669684" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_cards$Run.coverage" NAME="Run Coverage Results" MODIFIED="1525708075415" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pytestproject$Pytest.coverage" NAME="Pytest Coverage Results" MODIFIED="1525464779666" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
   <component name="FileEditorManager">
@@ -39,11 +40,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DeckConfigurator.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="DeckConfigurator.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/DeckConfigurator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+            <state relative-caret-position="320">
+              <caret line="20" column="80" selection-start-line="20" selection-start-column="80" selection-end-line="20" selection-end-column="80" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="card_config.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/card_config.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="21" column="10" lean-forward="true" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="scratch.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="36" selection-start-column="36" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -51,7 +70,7 @@
       <file leaf-file-name="VariableDeck.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/VariableDeck.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
+            <state relative-caret-position="352">
               <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
               <folding>
                 <element signature="e#2#28#0" expanded="true" />
@@ -60,53 +79,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Variable_Deck_test.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Tests/Variable_Deck_test.py">
+      <file leaf-file-name="Variable_Deck_test-mock.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Tests/Variable_Deck_test-mock.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+            <state relative-caret-position="80">
+              <caret line="11" column="21" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Variable_Deck_test-mocktest.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Tests/Variable_Deck_test-mocktest.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="560">
-              <caret line="56" column="94" selection-start-line="56" selection-start-column="94" selection-end-line="56" selection-end-column="94" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="16">
-              <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mock.py" pinned="false" current-in-tab="false">
-        <entry file="file://C:/Program Files/Python36/Lib/unittest/mock.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18768">
-              <caret line="1178" selection-start-line="1178" selection-end-line="1178" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="card_dictionary.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Tests/card_dictionary.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="64">
-              <caret line="4" selection-start-line="4" selection-end-line="9" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -127,6 +107,9 @@
       <find>VariableDeck.Deck(VariableDeck.DeckConfigurator())</find>
       <find>DeckConfigurator</find>
       <find>cardsRe</find>
+      <find>[</find>
+      <find>]</find>
+      <find>,</find>
     </findStrings>
     <replaceStrings>
       <replace>VariableDeck</replace>
@@ -153,11 +136,15 @@
         <option value="$PROJECT_DIR$/Tests/card_dictionary.py" />
         <option value="$PROJECT_DIR$/VariableDeck.py" />
         <option value="$PROJECT_DIR$/Main.py" />
-        <option value="$PROJECT_DIR$/DeckConfigurator.py" />
         <option value="$PROJECT_DIR$/Tests/Variable_Deck_test-mocktest2.py" />
         <option value="$PROJECT_DIR$/Tests/Variable_Deck_test.py" />
-        <option value="$PROJECT_DIR$/Tests/Variable_Deck_test-mocktest.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/Tests/Variable_Deck_test-mocktest.py" />
+        <option value="$PROJECT_DIR$/Tests/Variable_Deck_test-mock.py" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.yml" />
+        <option value="$PROJECT_DIR$/Simple_Version/DeckConfigurator_preyml.py" />
+        <option value="$PROJECT_DIR$/card_config.yml" />
+        <option value="$PROJECT_DIR$/DeckConfigurator.py" />
       </list>
     </option>
   </component>
@@ -194,6 +181,11 @@
             <path>
               <item name="python-cards" type="b2602c69:ProjectViewProjectNode" />
               <item name="python-cards" type="462c0819:PsiDirectoryNode" />
+              <item name="Simple_Version" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="python-cards" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python-cards" type="462c0819:PsiDirectoryNode" />
               <item name="Tests" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -205,23 +197,25 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="yaml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Adobe/user-sync.py" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="G:\Repositories\python-cards\Tests" />
-      <recent name="G:\Repositories\python-cards\venv_py" />
-      <recent name="D:\Repositories\thenewcarag\pytestproject\Tests" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Repositories\python-cards\Simple_Version" />
       <recent name="G:\Repositories\python-cards\Simple_Version" />
       <recent name="G:\Repositories\python-cards" />
       <recent name="G:\Repositories\python-cards\Tests" />
       <recent name="D:\Repositories\thenewcarag\pytestproject\Tests" />
-      <recent name="D:\Repositories\thenewcarag\pytestproject" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Repositories\python-cards\Simple_Version" />
+      <recent name="G:\Repositories\python-cards\Tests" />
+      <recent name="G:\Repositories\python-cards\venv_py" />
+      <recent name="D:\Repositories\thenewcarag\pytestproject\Tests" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -236,7 +230,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.py.test in Variable_Deck_test-mocktest.py">
+  <component name="RunManager" selected="Python tests.Mock Tests">
     <configuration name="Run" type="PythonConfigurationType" factoryName="Python">
       <module name="pytestproject" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -244,7 +238,7 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="G:\Repositories\python-cards\venv_py\Scripts\python.exe" />
+      <option name="SDK_HOME" value="D:\Repositories\python-cards\venv_depcheck\Scripts\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -256,7 +250,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="py.test in Variable_Deck_test-mocktest2.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="Mock Tests" type="tests" factoryName="py.test" temporary="true">
       <module name="pytestproject" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -268,10 +262,10 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/Tests/Variable_Deck_test-mocktest2.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/Tests/Variable_Deck_test-mock.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
-    <configuration name="py.test in Variable_Deck_test-mocktest.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="py.test in Variable_Deck_test-stub.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="pytestproject" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -283,35 +277,18 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/Tests/Variable_Deck_test-mocktest.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-    </configuration>
-    <configuration name="py.test in Variable_Deck_test.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="pytestproject" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/Tests/Variable_Deck_test.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/Tests/Variable_Deck_test-stub.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <list>
       <item itemvalue="Python.Run" />
-      <item itemvalue="Python tests.py.test in Variable_Deck_test.py" />
-      <item itemvalue="Python tests.py.test in Variable_Deck_test-mocktest.py" />
-      <item itemvalue="Python tests.py.test in Variable_Deck_test-mocktest2.py" />
+      <item itemvalue="Python tests.py.test in Variable_Deck_test-stub.py" />
+      <item itemvalue="Python tests.Mock Tests" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.py.test in Variable_Deck_test-mocktest.py" />
-        <item itemvalue="Python tests.py.test in Variable_Deck_test.py" />
-        <item itemvalue="Python tests.py.test in Variable_Deck_test-mocktest2.py" />
+        <item itemvalue="Python tests.Mock Tests" />
+        <item itemvalue="Python tests.py.test in Variable_Deck_test-stub.py" />
       </list>
     </recent_temporary>
   </component>
@@ -329,35 +306,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="py_test_in_Variable_Deck_test-mocktest2_py - 2018.05.06 at 22h 20m 23s.xml">
-      <configuration name="py.test in Variable_Deck_test-mocktest2.py" configurationId="tests" />
+    <history-entry file="Mock_Tests - 2018.05.07 at 09h 03m 08s.xml">
+      <configuration name="Mock Tests" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_Variable_Deck_test-mocktest_py - 2018.05.06 at 22h 20m 44s.xml">
-      <configuration name="py.test in Variable_Deck_test-mocktest.py" configurationId="tests" />
+    <history-entry file="Mock_Tests - 2018.05.07 at 09h 05m 39s.xml">
+      <configuration name="Mock Tests" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_Variable_Deck_test-mocktest_py - 2018.05.06 at 22h 21m 36s.xml">
-      <configuration name="py.test in Variable_Deck_test-mocktest.py" configurationId="tests" />
+    <history-entry file="Mock_Tests - 2018.05.07 at 09h 05m 41s.xml">
+      <configuration name="Mock Tests" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_Variable_Deck_test-mocktest_py - 2018.05.06 at 22h 21m 53s.xml">
-      <configuration name="py.test in Variable_Deck_test-mocktest.py" configurationId="tests" />
+    <history-entry file="py_test_in_Variable_Deck_test-stub_py - 2018.05.07 at 09h 05m 53s.xml">
+      <configuration name="py.test in Variable_Deck_test-stub.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_Variable_Deck_test-mocktest_py - 2018.05.06 at 22h 24m 13s.xml">
-      <configuration name="py.test in Variable_Deck_test-mocktest.py" configurationId="tests" />
+    <history-entry file="py_test_in_Variable_Deck_test-stub_py - 2018.05.07 at 09h 06m 07s.xml">
+      <configuration name="py.test in Variable_Deck_test-stub.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_Variable_Deck_test-mocktest_py - 2018.05.06 at 22h 27m 15s.xml">
-      <configuration name="py.test in Variable_Deck_test-mocktest.py" configurationId="tests" />
+    <history-entry file="Mock_Tests - 2018.05.07 at 09h 06m 15s.xml">
+      <configuration name="Mock Tests" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_Variable_Deck_test-mocktest_py - 2018.05.06 at 22h 33m 24s.xml">
-      <configuration name="py.test in Variable_Deck_test-mocktest.py" configurationId="tests" />
+    <history-entry file="Mock_Tests - 2018.05.07 at 09h 08m 57s.xml">
+      <configuration name="Mock Tests" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_Variable_Deck_test-mocktest_py - 2018.05.06 at 22h 33m 52s.xml">
-      <configuration name="py.test in Variable_Deck_test-mocktest.py" configurationId="tests" />
+    <history-entry file="Mock_Tests - 2018.05.07 at 10h 39m 09s.xml">
+      <configuration name="Mock Tests" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_Variable_Deck_test_py - 2018.05.06 at 22h 36m 10s.xml">
-      <configuration name="py.test in Variable_Deck_test.py" configurationId="tests" />
+    <history-entry file="Mock_Tests - 2018.05.07 at 10h 42m 51s.xml">
+      <configuration name="Mock Tests" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_Variable_Deck_test-mocktest_py - 2018.05.06 at 22h 37m 06s.xml">
-      <configuration name="py.test in Variable_Deck_test-mocktest.py" configurationId="tests" />
+    <history-entry file="Mock_Tests - 2018.05.07 at 10h 48m 01s.xml">
+      <configuration name="Mock Tests" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -369,15 +346,15 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.35456476" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2794899" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32908705" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15885417" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15885417" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39808917" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39744952" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -408,7 +385,7 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="29" />
+      <option name="time" value="56" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
@@ -453,7 +430,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/Variable_Deck_test.py">
+    <entry file="file://$PROJECT_DIR$/Tests/Variable_Deck_test-stub.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
           <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
@@ -470,14 +447,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/card_dictionary.py">
+    <entry file="file://$PROJECT_DIR$/Simple_Version/card_dictionary.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="64">
           <caret line="4" selection-start-line="4" selection-end-line="9" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/Variable_Deck_test-mocktest.py">
+    <entry file="file://$PROJECT_DIR$/Tests/Variable_Deck_test-mock.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="592">
           <caret line="43" column="24" lean-forward="true" selection-start-line="43" selection-start-column="24" selection-end-line="43" selection-end-column="24" />
@@ -521,7 +498,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/Variable_Deck_test.py">
+    <entry file="file://$PROJECT_DIR$/Tests/Variable_Deck_test-stub.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
           <caret line="18" column="43" lean-forward="true" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
@@ -587,17 +564,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/card_dictionary.py">
+    <entry file="file://$PROJECT_DIR$/Simple_Version/card_dictionary.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="64">
           <caret line="4" selection-start-line="4" selection-end-line="9" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DeckConfigurator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -609,9 +579,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/Variable_Deck_test-stub.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/VariableDeck.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
+        <state relative-caret-position="352">
           <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
           <folding>
             <element signature="e#2#28#0" expanded="true" />
@@ -619,30 +606,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/Variable_Deck_test.py">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+        <state>
+          <caret column="36" selection-start-column="36" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/Variable_Deck_test-mock.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="11" column="21" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/Variable_Deck_test-mocktest.py">
+    <entry file="file://$PROJECT_DIR$/card_config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="56" column="94" selection-start-line="56" selection-start-column="94" selection-end-line="56" selection-end-column="94" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="336">
+          <caret line="21" column="10" lean-forward="true" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/Simple_Version/DeckConfigurator_preyml.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16">
-          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+        <state relative-caret-position="336">
+          <caret line="21" lean-forward="true" selection-end-line="42" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DeckConfigurator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="20" column="80" selection-start-line="20" selection-start-column="80" selection-end-line="20" selection-end-column="80" />
         </state>
       </provider>
     </entry>

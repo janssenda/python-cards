@@ -7,7 +7,6 @@ class DeckConfigurator:
         self._card_dict = {}
         self.read_yml()
 
-
     def read_yml(self):
         with open("card_config.yml", 'r') as stream:
             try:
@@ -17,12 +16,15 @@ class DeckConfigurator:
                     card_row = [x.strip() for x in card_data['Card_Layout'][d].split(',')]
                     self._card_dict[d] = card_row
 
-                for v in card_data['Card_Values']:
-                    self._ranksValues[str(v)] = int(card_data['Card_Values'][v])
-
             except yaml.YAMLError as exc:
                 print(exc)
 
+
+        self._ranksValues = {
+            "2": 2, "3": 3, "4": 4, "5": 5, "6": 6,
+            "7": 7, "8": 8, "9": 9, "10": 10,
+            "Jack": 10, "Queen": 10, "King": 10, "Ace": 1
+        }
 
     @property
     def card_dict(self):

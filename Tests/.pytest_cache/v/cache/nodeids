@@ -1,3 +1,6 @@
 [
-  "Variable_Deck_test-mocktest.py::VariableDeck_test::test_deck_size"
+  "Variable_Deck_test-mock.py::VariableDeck_test::test_construct_deck",
+  "Variable_Deck_test-mock.py::VariableDeck_test::test_deck_size",
+  "Variable_Deck_test-mock.py::VariableDeck_test::test_draw_cards",
+  "Variable_Deck_test-mock.py::VariableDeck_test::test_shuffle_deck"
 ]
