@@ -1,4 +1,5 @@
 [
+  "Test_Deck_Configurator-test.py::Test_Deck_Configurator::test_read_yml",
   "Test_Variable_Deck.py::VariableDeck_test::test_construct_deck",
   "Test_Variable_Deck.py::VariableDeck_test::test_deck_size",
   "Test_Variable_Deck.py::VariableDeck_test::test_draw_cards",
