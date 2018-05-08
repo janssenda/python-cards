@@ -1,3 +1,6 @@
 venv*
 .pytest_cache/*
 .idea/*
+\.idea/
+\.pytest_cache/
+\venv*
