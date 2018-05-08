@@ -9,12 +9,13 @@ class Deck:
         if numDecks <= 0 or not isinstance(numDecks, int):
             raise ValueError("Error - Deck size must be a positive integer")
 
+        deckConfig.read_yml("card_config.yml")
+
         self._isShuffled = False
         self._cards = []
         self._numDecks = numDecks
         self._card_dict = deckConfig.card_dict
         self._ranksValues = deckConfig.ranksValues
-
         self.constructDeck()
 
 
